@@ -1,0 +1,17 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.0'
+    defaultConfig {
+        applicationId 'com.eje_c.hlsview'
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName '1.0'
+    }
+}
+
+dependencies {
+    compile 'org.meganekkovr:meganekko:3.1.0'
+}
